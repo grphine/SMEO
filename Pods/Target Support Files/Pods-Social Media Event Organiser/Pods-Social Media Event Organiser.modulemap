@@ -1,0 +1,6 @@
+framework module Pods_Social_Media_Event_Organiser {
+  umbrella header "Pods-Social Media Event Organiser-umbrella.h"
+
+  export *
+  module * { export * }
+}
