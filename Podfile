@@ -8,6 +8,8 @@ target 'Social Media Event Organiser' do
   # Pods for Social Media Event Organiser
 
 	pod 'Firebase/Core'
+	pod 'Firebase/Auth'
+	pod 'Firebase/Database'
 
   target 'Social Media Event OrganiserTests' do
     inherit! :search_paths

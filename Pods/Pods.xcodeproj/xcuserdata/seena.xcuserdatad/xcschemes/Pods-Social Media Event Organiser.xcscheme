@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "97894A7BEDC635ED582E8FB6754ADCF4"
+               BlueprintIdentifier = "864FCDC2CEDB282008F066788CEFF86B"
                BuildableName = "Pods_Social_Media_Event_Organiser.framework"
                BlueprintName = "Pods-Social Media Event Organiser"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "97894A7BEDC635ED582E8FB6754ADCF4"
+            BlueprintIdentifier = "864FCDC2CEDB282008F066788CEFF86B"
             BuildableName = "Pods_Social_Media_Event_Organiser.framework"
             BlueprintName = "Pods-Social Media Event Organiser"
             ReferencedContainer = "container:Pods.xcodeproj">
