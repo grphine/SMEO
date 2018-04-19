@@ -174,7 +174,6 @@
                     <connections>
                         <outlet property="emailTextField" destination="EVj-OO-taC" id="4qz-F0-1aC"/>
                         <outlet property="passwordTextField" destination="TjM-9I-kYr" id="xYC-Hv-sv8"/>
-                        <segue destination="Otm-zb-Bwf" kind="show" identifier="passedLogin" id="U8e-pB-vJ9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -286,24 +285,10 @@
             </objects>
             <point key="canvasLocation" x="1068" y="774"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="LmG-YI-cHw">
-            <objects>
-                <viewController id="Otm-zb-Bwf" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="UNu-Bg-esw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="nep-Bt-Dw4"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FHC-uS-WAh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1892" y="33.733133433283363"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Kfl-I3-3qw">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eMo-Ua-GwA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0mm-Ax-g8t" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vGs-Fv-n9Y">
@@ -315,7 +300,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Bs0-G5-8f7"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eMo-Ua-GwA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="305" y="34"/>
         </scene>

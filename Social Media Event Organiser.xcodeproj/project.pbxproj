@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		045B470B20878E9E00F4AC12 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 045B470A20878E9E00F4AC12 /* GoogleService-Info.plist */; };
+		048A87CF208892C500C925DD /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A87CE208892C500C925DD /* EventTableViewController.swift */; };
+		048A87D1208898F100C925DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048A87D0208898F100C925DD /* Main.storyboard */; };
 		04B0AE0C20879C1E00CC745D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0AE0B20879C1E00CC745D /* LoginViewController.swift */; };
 		04B0AE0E20879C2700CC745D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0AE0D20879C2700CC745D /* RegisterViewController.swift */; };
 		04FACB1F20878C23009850D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FACB1E20878C23009850D6 /* AppDelegate.swift */; };
-		04FACB2420878C24009850D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FACB2220878C24009850D6 /* Main.storyboard */; };
+		04FACB2420878C24009850D6 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FACB2220878C24009850D6 /* Login.storyboard */; };
 		04FACB2620878C24009850D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FACB2520878C24009850D6 /* Assets.xcassets */; };
 		04FACB2920878C24009850D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FACB2720878C24009850D6 /* LaunchScreen.storyboard */; };
 		04FACB3420878C24009850D6 /* Social_Media_Event_OrganiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FACB3320878C24009850D6 /* Social_Media_Event_OrganiserTests.swift */; };
@@ -40,11 +42,13 @@
 
 /* Begin PBXFileReference section */
 		045B470A20878E9E00F4AC12 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		048A87CE208892C500C925DD /* EventTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
+		048A87D0208898F100C925DD /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		04B0AE0B20879C1E00CC745D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		04B0AE0D20879C2700CC745D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		04FACB1B20878C23009850D6 /* Social Media Event Organiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Media Event Organiser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FACB1E20878C23009850D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04FACB2320878C24009850D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FACB2320878C24009850D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		04FACB2520878C24009850D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FACB2820878C24009850D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04FACB2A20878C24009850D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 			children = (
 				04B0AE0B20879C1E00CC745D /* LoginViewController.swift */,
 				04B0AE0D20879C2700CC745D /* RegisterViewController.swift */,
+				048A87CE208892C500C925DD /* EventTableViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -112,7 +117,8 @@
 		04B0AE0820879A0100CC745D /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				04FACB2220878C24009850D6 /* Main.storyboard */,
+				04FACB2220878C24009850D6 /* Login.storyboard */,
+				048A87D0208898F100C925DD /* Main.storyboard */,
 				04FACB2720878C24009850D6 /* LaunchScreen.storyboard */,
 			);
 			path = UI;
@@ -304,9 +310,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FACB2920878C24009850D6 /* LaunchScreen.storyboard in Resources */,
+				048A87D1208898F100C925DD /* Main.storyboard in Resources */,
 				045B470B20878E9E00F4AC12 /* GoogleService-Info.plist in Resources */,
 				04FACB2620878C24009850D6 /* Assets.xcassets in Resources */,
-				04FACB2420878C24009850D6 /* Main.storyboard in Resources */,
+				04FACB2420878C24009850D6 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +421,7 @@
 			files = (
 				04B0AE0E20879C2700CC745D /* RegisterViewController.swift in Sources */,
 				04B0AE0C20879C1E00CC745D /* LoginViewController.swift in Sources */,
+				048A87CF208892C500C925DD /* EventTableViewController.swift in Sources */,
 				04FACB1F20878C23009850D6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,12 +458,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04FACB2220878C24009850D6 /* Main.storyboard */ = {
+		04FACB2220878C24009850D6 /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				04FACB2320878C24009850D6 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		04FACB2720878C24009850D6 /* LaunchScreen.storyboard */ = {
@@ -590,7 +598,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Social Media Event Organiser/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "seenashafai.Social-Media-Event-Organiser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -605,7 +616,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Social Media Event Organiser/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "seenashafai.Social-Media-Event-Organiser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -621,7 +635,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Social Media Event OrganiserTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "seenashafai.Social-Media-Event-OrganiserTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -638,7 +656,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Social Media Event OrganiserTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "seenashafai.Social-Media-Event-OrganiserTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -654,7 +676,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Social Media Event OrganiserUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "seenashafai.Social-Media-Event-OrganiserUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -670,7 +696,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Social Media Event OrganiserUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "seenashafai.Social-Media-Event-OrganiserUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
