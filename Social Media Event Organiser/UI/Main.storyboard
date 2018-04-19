@@ -12,7 +12,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="nme-xP-DwM">
             <objects>
-                <tabBarController id="NnI-dC-ot6" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarController" id="NnI-dC-ot6" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xJH-aH-aA2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -29,7 +29,7 @@
         <!--Item-->
         <scene sceneID="OO1-tg-fcH">
             <objects>
-                <tableViewController id="YVe-ze-nX8" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="EventTable" id="YVe-ze-nX8" customClass="EventTableViewController" customModule="Social_Media_Event_Organiser" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="v6y-Qg-pvv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

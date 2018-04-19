@@ -97,12 +97,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04B0AE06208799E600CC745D /* View Controllers */ = {
+		048A87D2208899D900C925DD /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				04B0AE0B20879C1E00CC745D /* LoginViewController.swift */,
 				04B0AE0D20879C2700CC745D /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		048A87D3208899E700C925DD /* Main */ = {
+			isa = PBXGroup;
+			children = (
 				048A87CE208892C500C925DD /* EventTableViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		04B0AE06208799E600CC745D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				048A87D2208899D900C925DD /* Login */,
+				048A87D3208899E700C925DD /* Main */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";

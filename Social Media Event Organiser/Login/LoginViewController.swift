@@ -23,7 +23,7 @@ class LoginViewController: UIViewController {
             }
             else{
                 print("login successful")
-                self.performSegue(withIdentifier: "passedLogin", sender: self)
+                self.performSegue(withIdentifier: "toMainStoryboard", sender: self)
             }
         }
     }

@@ -174,11 +174,20 @@
                     <connections>
                         <outlet property="emailTextField" destination="EVj-OO-taC" id="4qz-F0-1aC"/>
                         <outlet property="passwordTextField" destination="TjM-9I-kYr" id="xYC-Hv-sv8"/>
+                        <segue destination="ZEs-IQ-uOC" kind="show" identifier="toMainStoryboard" id="y6m-Yr-Rsy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1068" y="33.733133433283363"/>
+        </scene>
+        <!--TabBarController-->
+        <scene sceneID="5Ze-mM-2rT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="TabBarController" id="ZEs-IQ-uOC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yX4-sC-3fB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1641" y="24"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="az3-8O-Luo">
